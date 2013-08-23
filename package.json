@@ -24,7 +24,7 @@
         "url":"http://github.com/nzakas/parser-lib.git"
     },
     "scripts": {
-        "test": "ant -f ../../build.xml test",
+        "test": "ant -f build.xml test",
         "prepublish": "npm test"
     }
 }
