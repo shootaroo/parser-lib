@@ -265,6 +265,9 @@ var Properties = {
     "empty-cells"                   : "show | hide | inherit",
     
     //F
+    "fill"                          : "<color>",
+    "fill-opacity"                  : "<number> | inherit",
+    "fill-rule"                     : "nonzero | evenodd | inherit",
     "filter"                        : 1,
     "fit"                           : "fill | hidden | meet | slice",
     "fit-position"                  : 1,
@@ -418,6 +421,14 @@ var Properties = {
     "src"                           : 1,
     "stress"                        : 1,
     "string-set"                    : 1,
+    "stroke"                        : "<color> | inherit",
+    "stroke-dasharray"              : "none | <number> | inherit",
+    "stroke-dashoffset"             : "<number> | inherit",
+    "stroke-linecap"                : "butt | round | square | inherit",
+    "stroke-linejoin"               : "miter | round | bevel | inherit",
+    "stroke-miterlimit"             : "<number> | inherit",
+    "stroke-opacity"                : "<number> | inherit",
+    "stroke-width"                  : "<number> | inherit",
     
     "table-layout"                  : "auto | fixed | inherit",
     "tab-size"                      : "<integer> | <length>",
