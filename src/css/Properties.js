@@ -265,6 +265,9 @@ var Properties = {
     "empty-cells"                   : "show | hide | inherit",
     
     //F
+    "fill"                          : "<color>",
+    "fill-opacity"                  : "<number> | inherit",
+    "fill-rule"                     : "nonzero | evenodd | inherit",
     "filter"                        : 1,
     "fit"                           : "fill | hidden | meet | slice",
     "fit-position"                  : 1,
