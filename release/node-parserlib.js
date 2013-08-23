@@ -21,7 +21,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 */
-/* Version v0.2.3, Build time: 23-August-2013 02:23:25 */
+/* Version v@VERSION@, Build time: 23-August-2013 02:47:11 */
 var parserlib = {};
 (function(){
 
@@ -931,7 +931,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 */
-/* Version v0.2.3, Build time: 23-August-2013 02:23:25 */
+/* Version v@VERSION@, Build time: 23-August-2013 02:47:11 */
 (function(){
 var EventTarget = parserlib.util.EventTarget,
 TokenStreamBase = parserlib.util.TokenStreamBase,
@@ -3771,7 +3771,7 @@ var Properties = {
     "empty-cells"                   : "show | hide | inherit",
     
     //F
-    "fill"                          : "<color>",
+    "fill"                          : "none | <color> | inherit",
     "fill-opacity"                  : "<number> | inherit",
     "fill-rule"                     : "nonzero | evenodd | inherit",
     "filter"                        : 1,
@@ -3929,12 +3929,12 @@ var Properties = {
     "string-set"                    : 1,
     "stroke"                        : "<color> | inherit",
     "stroke-dasharray"              : "none | <number> | inherit",
-    "stroke-dashoffset"             : "<number> | inherit",
+    "stroke-dashoffset"             : "<percentage> | <length> | inherit",
     "stroke-linecap"                : "butt | round | square | inherit",
     "stroke-linejoin"               : "miter | round | bevel | inherit",
     "stroke-miterlimit"             : "<number> | inherit",
     "stroke-opacity"                : "<number> | inherit",
-    "stroke-width"                  : "<number> | inherit",
+    "stroke-width"                  : "<percentage> | <length> | inherit",
     
     "table-layout"                  : "auto | fixed | inherit",
     "tab-size"                      : "<integer> | <length>",

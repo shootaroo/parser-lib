@@ -1,6 +1,18 @@
 August 23, 2013 - v0.2.3
 
 * Merge branch 'add-svg-properties' into custom (shootaroo)
+* fix value spec (shootaroo)
+* fix path (shootaroo)
+* release build (shootaroo)
+* Merge branch 'add-svg-properties' into custom (shootaroo)
+* add custom package.json (shootaroo)
+* add strokes (shootaroo)
+* add fills (shootaroo)
+
+
+August 23, 2013 - v0.2.3
+
+* Merge branch 'add-svg-properties' into custom (shootaroo)
 * add custom package.json (shootaroo)
 * add strokes (shootaroo)
 * add fills (shootaroo)
@@ -331,5 +343,7 @@ November 28, 2011 - v0.1.0
 * Implemented lookahead buffer for tokenstream (Nicholas C. Zakas)
 * Made comments and white space of CSS hidden from tokenstream (Nicholas C. Zakas)
 * Initial commit (Nicholas C. Zakas)
+
+
 
 
