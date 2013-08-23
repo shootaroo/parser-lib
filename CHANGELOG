@@ -1,3 +1,11 @@
+August 23, 2013 - v0.2.3
+
+* Merge branch 'add-svg-properties' into custom (shootaroo)
+* add custom package.json (shootaroo)
+* add strokes (shootaroo)
+* add fills (shootaroo)
+
+
 June 19, 2013 - v0.2.3
 
 * Allow @font-face inside of @media (fixes #75) (Nicholas C. Zakas)
@@ -129,8 +137,8 @@ February 10, 2012 - v0.1.5
 * Merge fixes (Nicholas C. Zakas)
 * Added creation of npm package (Nicholas C. Zakas)
 * Added some tests (Nicholas C. Zakas)
-* tests for border-spacing (Anders YtterstroÌˆm)
-* support for border-spacing and -ms-keyframes (Anders YtterstroÌˆm)
+* tests for border-spacing (Anders YtterstroÌ?)
+* support for border-spacing and -ms-keyframes (Anders YtterstroÌ?)
 
 
 January 31, 2012 - v0.1.4
@@ -323,3 +331,5 @@ November 28, 2011 - v0.1.0
 * Implemented lookahead buffer for tokenstream (Nicholas C. Zakas)
 * Made comments and white space of CSS hidden from tokenstream (Nicholas C. Zakas)
 * Initial commit (Nicholas C. Zakas)
+
+
